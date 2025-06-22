@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "product-basket-tests"
+version = "0.1.0"
+description = "Презентационное тестирование 1"
+authors = ["Viktor Gurko <viktorgurko@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+coverage = "^7.6.12"
+mypy = "^1.15.0"
+isort = "^6.0.1"
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
