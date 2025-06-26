@@ -192,7 +192,7 @@ export PATH="$HOME/.local/bin:$PATH"
 Клонируйте проект и перейдите в его директорию:
 
 ```bash
-git clone git@gitlab.com:Vikgur/product-basket-tests.git
+git clone git@github.com:Vikgur/product-basket-tests.git
 cd product-basket-tests
 ```
 
